@@ -376,6 +376,11 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <groupId>com.heroku.sdk</groupId>
+                    <artifactId>heroku-maven-plugin</artifactId>
+                    <version>3.0.3</version>
+                </plugin>
+                <plugin>
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
                     <version>${version.org.eclipse.jetty}</version>
